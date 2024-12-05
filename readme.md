@@ -1,7 +1,7 @@
 # Figures
 We have 3 types of figures: triangles, circles and rectangles. 
 
-Write an interface `Figure` and 3 classes implementing it so that every figure 
+Wrote an interface `Figure` and 3 classes implementing it so that every figure 
 has:
 - a `shape` (`triangle`, `circle` or `rectangle`);
 - a `color` (`red`, `green` or `blue`);
@@ -17,9 +17,6 @@ The constructors should `throw new Error('your error message')` if:
 - any length is <= 0
 - the longest side of a triangle is >= than a sum of two others
 
-Hints:
-- use `Math.PI` for calculating a circle square
-- use [Heron's formula](https://en.wikipedia.org/wiki/Heron%27s_formula) for triangles
 
 Example:
 ```typescript
