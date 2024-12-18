@@ -9,12 +9,7 @@ Added an interface `Figure` and 3 classes implementing it so that every figure h
 
 ### Stack
 
-- HTML (BEM)
-- CSS (Bulma)
-- JS
 - Typescript
-- React
-- ReactDOM
 
 ### Tools
 
