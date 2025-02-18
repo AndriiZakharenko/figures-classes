@@ -1,20 +1,31 @@
 # Figure Classes
 
-### Description
+## 🎮 About the Project
+A **TypeScript-based** implementation of geometric figures using **OOP principles**.  
+The project defines an **interface `Figure`** and three implementing classes:  
+- **Triangle**  
+- **Circle**  
+- **Rectangle**  
 
-Added an interface `Figure` and 3 classes implementing it so that every figure has:
-- a `shape` (`triangle`, `circle` or `rectangle`);
-- a `color` (`red`, `green` or `blue`);
-- a method `getArea` that returns the area of the figure rounded down to hundredths
+Each figure has:  
+✅ A `shape` property (`triangle`, `circle`, or `rectangle`)  
+✅ A `color` property (`red`, `green`, or `blue`)  
+✅ A method `getArea()` that **calculates the area**, rounded down to hundredths  
 
-### Stack
+## 🚀 Tech Stack
+- **TypeScript** (Strongly typed OOP approach)  
 
-- Typescript
+## 🛠️ Tools & Dependencies
+- **Jest** – Unit testing framework  
+- **ESLint** – Code quality and linting  
+- **Husky** – Git hooks automation  
+- **Prettier** – Code formatting  
+- **Babel** – JavaScript compiler  
 
-### Tools
+## 📌 Features
+✅ Implements **OOP principles**  
+✅ Ensures **accurate area calculations**  
+✅ Uses **TypeScript for better maintainability**  
 
-- Jest
-- ESlint
-- Husky
-- Prettier
-- Babel
+## 📜 License
+This project is forked from 💻 [Mate Academy](https://github.com/mate-academy/ts_figures_classes)
